@@ -667,21 +667,17 @@
         Consectetur tempore debitis atque ab et facere perspiciatis facilis assumenda reprehenderit? Temporibus culpa officia similique id. Dignissimos accusantium molestiae animi error at quae a, ullam vel sapiente quidem, corrupti laudantium?</p>
       </div>
 
-      <form action="https://formspree.io/f/xeojbnbw" method="POST">
-        <label>
-          Votre nom :
-          <input type="nom" name="nom">
-        </label>
-        <label>
-          Votre mail :
-          <input type="email" name="email">
-        </label>
-        <label>
-          Votre message:
-          <textarea name="message"></textarea>
-        </label>
-        <!-- your other form fields go here -->
-        <button type="submit">Send</button>
+      <form action="https://formspree.io/f/ton-id-unique" method="POST">
+        <label for="name">Nom:</label>
+        <input type="text" id="name" name="name" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required>
+      
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      
+        <button type="submit">Envoyer</button>
       </form>
 
 
