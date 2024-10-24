@@ -1,7 +1,7 @@
 /* Base */
 
 :root {
-  --color-body: #333333;
+  --color-body: #2b2c30;
   --background-body: #ffffff;
 }
 
@@ -161,7 +161,7 @@ section {
 }
 
 .header a:hover {
-  color: #524046;
+  color: #2b2c30;
 }
 
 .header .right {
@@ -290,7 +290,7 @@ section {
 }
 
 .hero {
-  background: #524046;
+  background: #2b2c30;
   color: #FFF;
   padding: 1rem 0 0 0;
 }
@@ -379,7 +379,7 @@ section {
   justify-content: center;
   width: 90px;
   height: 90px;
-  border: 2px solid #524046;
+  border: 2px solid #2b2c30;
   border-radius: 50%;
 }
 
@@ -423,7 +423,7 @@ section {
 
 .skills li {
   background-color: #F5F5F5;
-  border-left: 3px solid #524046;
+  border-left: 3px solid #2b2c30;
   padding: .9rem 2rem;
 }
 
@@ -434,7 +434,7 @@ section {
 }
 
 .skills .bar {
-  background: #524046;
+  background: #2b2c30;
   padding: 1rem;
 }
 
@@ -473,7 +473,7 @@ section {
 
 .portfolio-filters a.active {
   color: #FFF;
-  background: #524046;
+  background: #2b2c30;
 }
 
 .modal {
@@ -622,7 +622,7 @@ section {
 
 .form .btn {
   border: none;
-  background: #524046;
+  background: #2b2c30;
   color: #FFF;
   width: auto;
   min-width: 160px;
@@ -638,7 +638,7 @@ section {
 /* Footer */
 
 footer {
-  background: #524046;
+  background: #2b2c30;
   color: #EEE;
   text-align: center;
   font-size: 1.4rem;
@@ -679,7 +679,7 @@ footer .socials a:hover {
 }
 
 .toto {
-  color: #524046;
+  color: #2b2c30;
 }
 
 @media screen and (min-width:750px) {
@@ -817,7 +817,7 @@ footer .socials a:hover {
   width: auto;
   /* Changé de 100% à auto pour que le bouton ne prenne pas toute la largeur */
   padding: 10px 20px;
-  background-color: #524046;
+  background-color: #2b2c30;
   color: white;
   border: none;
   border-radius: 4px;
@@ -827,7 +827,7 @@ footer .socials a:hover {
 }
 
 .contact-form__submit:hover {
-  background-color: #635256;
+  background-color: #545c5d;
 }
 
 /* Media query pour les écrans moyens et grands */
